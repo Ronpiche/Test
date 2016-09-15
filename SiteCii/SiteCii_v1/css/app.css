@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*top bar*/
+.title-bar {
+text-align:center;
+}
+/*orbit*/
+.orbit-container { 
+  height: 250px; 
+}  /* Set to height of slides */
+/*footer*/
+.row {
+  max-width: 1200px; 
+}
+
+.footer {
+background-color: #292c2f;
+text-align: center;
+font-size: 1.2rem;
+padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+.footer .footer-links a {
+  list-style: none;
+  font-weight: normal;
+  color: #fff;
+  padding: 3rem 0 2rem;
+  margin: 0;
+  font-size: 0.875rem; }
+  .footer .footer-links a::after {
+    content: "•";
+    padding: 0 0.2rem 0 0.4rem; }
+  .footer .footer-links a:last-child::after {
+    content: "";
+    padding: 0 0.4rem 0 0.8rem; }
+@media only screen and (min-width: 40.063em) {
+  .footer {
+    padding: 4rem; }
+    .footer p {
+      text-align: left; }
+    .footer .social {
+      text-align: left;
+      margin: 0; }
+    .footer .footer-form .contact {
+        position: fixed;
+        bottom: 0;
+        width: 100%; } }
+.logo {
+  color: #fff;
+  font-size: 1.5rem; }
+  .logo i {
+    margin-right: 0.5rem; }
+  /*personise footer*/
+  .fi-social-facebook{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383e;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+
+  
